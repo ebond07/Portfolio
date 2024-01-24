@@ -32,7 +32,7 @@ function Hero() {
               <TypeAnimation
                 cursor={false}
                 sequence={[
-                  'Hi, I\'m Pedro.',
+                  'Hi, I\'m Evan.',
                   () => setShowSubtitle(true)
                 ]}
                 speed={{ type: "keyStrokeDelayInMs", value: 150 }}
@@ -46,7 +46,7 @@ function Hero() {
                     500,
                     'A Full-Stack Developer.',
                     1000,
-                    'A BCIT graduate.',
+                    'A Computer Science Student.',
                     // 'I design and code beautifully simple things, and I love what I do.',
                     1000,
                     'A problem solver.',
