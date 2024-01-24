@@ -23,14 +23,14 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Evan Bond</strong>. I'm originally from Brazil and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
+            Hello! My name is <strong>Evan Bond</strong>. I'm from Montreal, Canada and have lived there my entire life. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
             </ScrollAnimation>
 
             <br /><br />
             
             <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-            Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.
+            My adventure into the world of computers began in my first year of high school as I took on a specialized program, dedicating 2 hours every day to learning various aspects within the computer science field.
+            This continued into college as I took on the challenge of pursuing a DEC in computer science. It took nothing short of hard work, dedication, and many many of my hours to complete the program while earning myself a spot on the Dean’s List every semester.
             </ScrollAnimation>
 
             <br /><br />
