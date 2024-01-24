@@ -31,14 +31,6 @@ export const stackList = [
     name: "ReactJS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-    name: "NextJs",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-    name: "Typescript",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
     name: "Git",
   },
@@ -48,11 +40,11 @@ export const stackList = [
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
-    name: "SpringBoot",
+    name: "Spring",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-    name: "Firebase",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg",
+    name: "Docker",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
@@ -79,12 +71,16 @@ export const stackList = [
     name: "MySQL",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-    name: "Bootstrap",
+    img: "/github-original.svg",
+    name: "Github",
+  },
+    {
+    img: "/jira-original.svg",
+    name: "Jira",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
+    img: "/postman-original.svg",
+    name: "Postman",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
@@ -97,5 +93,9 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
+  },
+  {
+    img: "/visualstudio-original.png",
+    name: "Visual Studio",
   },
 ];

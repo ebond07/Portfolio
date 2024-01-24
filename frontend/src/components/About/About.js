@@ -23,7 +23,8 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Evan Bond</strong>. I'm from Montreal, Canada and have lived there my entire life. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
+            Hello! My name is <strong>Evan Bond</strong>. I'm from Montreal, Canada and have lived there my entire life.
+            Throughout my life, I have gained valuable experience through jobs in various fields. These not only increased my knowledge of computers but also gave way to some of the things I am most proud of; my adaptability, my work ethic, as well as my dedication to improving myself every day.
             </ScrollAnimation>
 
             <br /><br />
@@ -36,7 +37,7 @@ function About() {
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
+              Working within teams throughout my time in college was an incredibly valuable and eye-opening experience that has fueled my eagerness to continue exploring exciting projects in the future, with a particular interest in web development and full-stack applications.
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
