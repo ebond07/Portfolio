@@ -77,8 +77,8 @@ export const stackList = [
     name: "Flask",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
+    img: "/csharp-original.svg",
+    name: "C #",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
