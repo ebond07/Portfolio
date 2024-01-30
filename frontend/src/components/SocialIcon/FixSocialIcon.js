@@ -53,30 +53,31 @@ const SocialContainer = styled.div`
 `;
 function FixSocialIcon() {
   return (
-    <SocialContainer>
-      <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-        <ul>
-          <li className="item">
-            <a
-              href="https://www.linkedin.com/in/evanjamesbond/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin />
-            </a>
-          </li>
-          <li className="item">
-            <a
-              href="https://github.com/ebond07"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub />
-            </a>
-          </li>
-        </ul>
-      </ScrollAnimation>
-    </SocialContainer>
+    // <SocialContainer>
+    //   <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+    //     <ul>
+    //       <li className="item">
+    //         <a
+    //           href="https://www.linkedin.com/in/evanjamesbond/"
+    //           target="_blank"
+    //           rel="noopener noreferrer"
+    //         >
+    //           <FaLinkedin />
+    //         </a>
+    //       </li>
+    //       <li className="item">
+    //         <a
+    //           href="https://github.com/ebond07"
+    //           target="_blank"
+    //           rel="noopener noreferrer"
+    //         >
+    //           <FaGithub />
+    //         </a>
+    //       </li>
+    //     </ul>
+    //   </ScrollAnimation>
+    // </SocialContainer>
+    <p>g</p>
   );
 }
 

@@ -9,6 +9,24 @@ export const ProjectList = [
     github_url: "https://github.com/Youssefchahboune/GameProjectWinter2023",
     demo_url: "",
   },
+  {
+    img: "/ctaPic.png",
+    title: "Hedge Trimming Web App",
+    description:
+      "A full stack web application created for a local hedge trimming company.",
+      tech_stack: ["React JS", "Spring", "Java"],
+      github_url: "https://github.com/ebond07/CoupeTonArbre",
+      demo_url: "",
+  },
+  {
+    img: "/ecoSmart.png",
+    title: "Eco Smart Home Hub",
+    description:
+      "A smart home hub which allows the user to control local lights and fans.",
+      tech_stack: ["React JS", "Python", "Flask"],
+      github_url: "https://github.com/nic5694/EcoSmart_Home_Hub",
+      demo_url: "",
+  },
 ];
 
 // --------------------------------------- Skills

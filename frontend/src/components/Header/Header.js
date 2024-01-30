@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import resume from '../../CV-Evan_Bond-EN.pdf';
+import resumeEN from '../../CV-Evan_Bond-EN.pdf';
 
 const Header = ({ toggle }) => {
   return (
@@ -8,7 +8,7 @@ const Header = ({ toggle }) => {
       <Nav>
         <Logo to="/">
           <img
-            src="/logo.png"
+            src="/profilePic.svg"
             alt="logo"
           />
         </Logo>
@@ -27,7 +27,7 @@ const Header = ({ toggle }) => {
           <a
             className="btn PrimaryBtn"
             // href="https://www.linkedin.com/in/evanjamesbond/"
-            href= {resume}
+            href= {resumeEN}
             target="_blank"
             rel="noopener noreferrer"
           >
