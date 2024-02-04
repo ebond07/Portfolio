@@ -12,8 +12,10 @@ import {
 } from "./HeroElements";
 import { TypeAnimation } from 'react-type-animation';
 import ScrollAnimation from "react-animate-on-scroll";
+import { useTranslation, Trans } from 'react-i18next';
 
 function Hero() {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [showSubtitle, setShowSubtitle] = useState(false);
   const [showScrollDown, setShowScrollDown] = useState(false);
@@ -32,7 +34,7 @@ function Hero() {
               <TypeAnimation
                 cursor={false}
                 sequence={[
-                  'Hi, I\'m Evan.',
+                  t('hero.introTitle'),
                   () => setShowSubtitle(true)
                 ]}
                 speed={{ type: "keyStrokeDelayInMs", value: 150 }}
@@ -44,17 +46,17 @@ function Hero() {
                   cursor={true}
                   sequence={[
                     500,
-                    'A Full-Stack Developer.',
+                    t('hero.descSequenceOne'),
                     1000,
-                    'A Computer Science Student.',
+                    t('hero.descSequenceTwo'),
                     1000,
-                    'A problem solver.',
+                    t('hero.descSequenceThree'),
                     1000,
-                    'An innovative thinker.',
+                    t('hero.descSequenceFour'),
                     1000,
-                    'An intern.',
+                    t('hero.descSequenceFive'),
                     1000,
-                    'A team player.',
+                    t('hero.descSequenceSix'),
                     // 1000,
                     // 'A.... cool guy?',
                     // 1000,
@@ -75,7 +77,7 @@ function Hero() {
                     // 1000,
                     // "Ok, this has been fun, but I'm gonna restart the loop now...",
                     1000,
-                    'Scroll down or use the navbar to learn more about me and what I do.',
+                    t('hero.descSequenceSeven'),
                     () => setShowScrollDown(true),
                     2000,
                   ]}
