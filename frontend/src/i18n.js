@@ -33,8 +33,11 @@ i18n
             },
             projects: {
                 header: `Projects`,
+                zombieApocalypseTitle: `Zombie Apocalypse`,
                 zombieApocalypseDesc: `A 2D top-down shooter where survival is key.`,
+                hedgeTrimmingTitle: `Hedge Trimming Web App`,
                 hedgeTrimmingDesc: `A full stack web application created for a local hedge trimming company.`,
+                ecoSmartTitle: `Eco Smart Home Hub`,
                 ecoSmartDesc: `A smart home hub which allows the user to control local lights and fans.`
             },
             about: {
@@ -71,8 +74,11 @@ i18n
             },
             projects: {
                 header: `Projets`,
+                zombieApocalypseTitle: `Zombie Apocalypse`,
                 zombieApocalypseDesc: `Un jeu de tir top-down en 2D où la survie est la priorité.`,
+                hedgeTrimmingTitle: `Application Web de Taille de Haies`,
                 hedgeTrimmingDesc: `Une application web full-stack crée pour une entreprise locale de taille de haies.`,
+                ecoSmartTitle: `Eco Smart Home Hub`,
                 ecoSmartDesc: `Un hub domestique intelligent qui permet à l'utilisateur de contrôler les lumières et les ventilateurs locaux.`
             },
             about: {

@@ -9,7 +9,7 @@ import {
   BtnGroup,
 } from "./ProjectCardElements";
 import ScrollAnimation from "react-animate-on-scroll";
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 function ProjectCard() {
   const { t } = useTranslation();
@@ -22,7 +22,7 @@ function ProjectCard() {
               <img src={list.img} alt={list.name} />
             </CardLeft>
             <CardRight>
-              <h4>{list.title}</h4>
+              <h4>{t(list.titleKey)}</h4>
               <p>{t(list.descriptionKey)}</p>
               <TechCardContainer>
                 {list.tech_stack.map((tech, index) => (

@@ -2,7 +2,7 @@ import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn, LanguageSelector } from "./HeaderElements";
 import resumeEN from '../../CV-Evan_Bond-EN.pdf';
 import resumeFR from '../../CV-Evan_Bond-FR.pdf';
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const languages = {
   en: { nativeName: 'EN' },

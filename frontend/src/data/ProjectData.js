@@ -2,7 +2,7 @@
 export const ProjectList = [
   {
     img: "/zombieapocalypse.png",
-    title: "Zombie Apocalypse",
+    titleKey: "projects.zombieApocalypseTitle",
     descriptionKey: 'projects.zombieApocalypseDesc',
     tech_stack: ["Unity", "C#"],
     github_url: "https://github.com/Youssefchahboune/GameProjectWinter2023",
@@ -10,7 +10,7 @@ export const ProjectList = [
   },
   {
     img: "/ctaPic.png",
-    title: "Hedge Trimming Web App",
+    titleKey: "projects.hedgeTrimmingTitle",
     descriptionKey: "projects.hedgeTrimmingDesc",
       tech_stack: ["React JS", "Spring", "Java"],
       github_url: "https://github.com/ebond07/CoupeTonArbre",
@@ -18,7 +18,7 @@ export const ProjectList = [
   },
   {
     img: "/ecoSmart.png",
-    title: "Eco Smart Home Hub",
+    titleKey: "projects.ecoSmartTitle",
     descriptionKey: "projects.ecoSmartDesc",
       tech_stack: ["React JS", "Python", "Flask"],
       github_url: "https://github.com/nic5694/EcoSmart_Home_Hub",
