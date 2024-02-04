@@ -1,0 +1,38 @@
+{
+    "experience": [
+        {
+            "company": "Concordia University",
+            "title": "Full-Stack Intern",
+            "years": "02.2024 - 05.2024",
+            "mainTech": [
+              "Angular 7/8"
+            ],
+            "technologies": [
+              "RxJS",
+              "Django",
+              "PHP",
+              "JavaScript",
+              "DHTMLX Gantt"
+            ]
+          },
+        {
+          "company": "Champlain College Saint Lambert",
+          "title": "Data Processing Operator",
+          "years": "10.2023 - present",
+          "mainTech": [
+            "Angular 8/9/10"
+          ],
+          "technologies": [
+            "REST API",
+            "RxJS",
+            "JavaScript",
+            "Bootstrap",
+            "MDBootstrap",
+            "EF Core",
+            ".NET Core",
+            "SignalR",
+            "Angular Material"
+          ]
+        }
+    ]
+}
