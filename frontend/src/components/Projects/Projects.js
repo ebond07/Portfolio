@@ -1,6 +1,10 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import { useTranslation, Trans } from 'react-i18next';
+
 function Projects() {
+  const { t } = useTranslation();
+
   return (
     <>
       <svg
@@ -20,7 +24,7 @@ function Projects() {
       </svg>
       <div className="ProjectWrapper" id="projects">
         <div className="Container">
-          <div className="SectionTitle">Projects</div>
+          <div className="SectionTitle">{t('projects.header')}</div>
           <ProjectCard />
         </div>
       </div>

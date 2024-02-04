@@ -61,3 +61,22 @@ export const NavBtn = styled.div`
     display: none;
   }
 `;
+
+export const LanguageSelector = styled('select')`
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f6f6f6;
+  font-size: 1rem;
+  cursor: pointer;
+  appearance: none; // This removes the native dropdown styling
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  option {
+    background: rgba(0, 0, 0, 0.8); // Assuming your dropdown background is dark
+    color: #f6f6f6; // Text color for the options, keeping it white for readability
+  }
+`;

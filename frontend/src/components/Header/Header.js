@@ -1,6 +1,7 @@
 import React from "react";
-import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn, LanguageSelector } from "./HeaderElements";
 import resumeEN from '../../CV-Evan_Bond-EN.pdf';
+import resumeFR from '../../CV-Evan_Bond-FR.pdf';
 import { useTranslation, Trans } from 'react-i18next';
 
 const languages = {
@@ -15,6 +16,9 @@ const Header = ({ toggle }) => {
     i18n.changeLanguage(lng);
     window.location.reload();
   };
+
+  const resumeLink = i18n.language === 'fr' ? resumeFR : resumeEN;
+
   return (
     <div className="Container" style={{padding: 0}}>
       <Nav>
@@ -38,21 +42,23 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            // href="https://www.linkedin.com/in/evanjamesbond/"
-            href= {resumeEN}
+            href= {resumeLink}
             target="_blank"
             rel="noopener noreferrer"
           >
             {t('header.resume')}
           </a>
         </NavBtn>
-        <div>
-          {Object.keys(languages).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => handleLanguageChange(lng)}>
-              {languages[lng].nativeName}
-            </button>
-          ))}
-        </div>
+          <LanguageSelector
+            onChange={(e) => handleLanguageChange(e.target.value)}
+            value={i18n.language}
+          >
+            {Object.keys(languages).map((lng) => (
+              <option key={lng} value={lng}>
+                {languages[lng].nativeName}
+              </option>
+            ))}
+          </LanguageSelector>
         <Bars onClick={toggle} />
       </Nav>
     </div>

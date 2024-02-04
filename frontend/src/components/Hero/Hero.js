@@ -102,7 +102,7 @@ function Hero() {
         {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
         <ScrollDown to="projects" id="scrollDown">
           <ScrollLink>
-            Scroll down
+            {t('hero.scrollDown')}
             <img
               src="/scroll-down.svg"
               alt="scroll-down"

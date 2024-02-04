@@ -5,7 +5,11 @@ import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
 
 import ScrollAnimation from "react-animate-on-scroll";
+import { useTranslation, Trans } from 'react-i18next';
+
 function Contact() {
+  const { t, i18n } = useTranslation();
+
   const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {
     navigator.clipboard.writeText("evanbond007@outlook.com");
@@ -19,7 +23,7 @@ function Contact() {
     <ContactWrapper id="contact">
 
       <div className="Container">
-        <div className="SectionTitle">Get In Touch</div>
+        <div className="SectionTitle">{t('contact.header')}</div>
         <ScrollAnimation animateIn="fadeIn" >
           <div className="BigCard">
             <Email>
@@ -49,7 +53,7 @@ function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Send Email
+                {t('contact.email')}
               </a>
             </Email>
           </div>
