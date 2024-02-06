@@ -45,7 +45,7 @@ function Review() {
                 }
             }
 
-            const response = await axios.post('http://localhost:8080/reviews', formData);
+            const response = await axios.post('https://portfolio-production-f26a.up.railway.app/reviews', formData);
             console.log(response.data);
             Swal.fire({
                 title: t('review.successTitle'),
