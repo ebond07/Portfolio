@@ -83,7 +83,7 @@ i18n
                 descSequenceOne: `Un Développeur Full-Stack.`,
                 descSequenceTwo: `Un Étudiant en Informatique.`,
                 descSequenceThree: `Un Résolveur de Problèmes.`,
-                descSequenceFour: `An innovative thinker.`,
+                descSequenceFour: `Un penseur innovant.`,
                 descSequenceFive: `Un Stagiare.`,
                 descSequenceSix: `Un Joueur D'Équipe.`,
                 descSequenceSeven: `Faites défiler la page ou utilisez la barre de navigation pour en savoir plus sur moi et ce que je fais.`,
