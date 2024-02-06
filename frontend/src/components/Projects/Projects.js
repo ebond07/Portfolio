@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 function Projects() {
   const { t } = useTranslation();

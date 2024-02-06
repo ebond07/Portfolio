@@ -7,7 +7,8 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import FixSocialIcon from "../components/SocialIcon/FixSocialIcon";
 import ScrollToTop from "../components/SocialIcon/ScrollToTop";
-import Experience from "../components/Experience/Experience";
+// import Experience from "../components/Experience/Experience";
+import Review from "../components/Review/Review";
 class Home extends Component {
 
   constructor(props) {
@@ -37,10 +38,11 @@ class Home extends Component {
         <Hero />
         <Projects />
         <About />
-        <Experience
+        {/* <Experience
           resumeExperience={this.state.resumeData.experience}
-        />
+        /> */}
         <Contact />
+        <Review />
         <FixSocialIcon />
         <Footer />
         <ScrollToTop />

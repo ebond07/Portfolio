@@ -18,6 +18,7 @@ i18n
                 navMenuProjects: `Projects`,
                 navMenuAbout: `About`,
                 navMenuContact: `Contact`,
+                navMenuTestimonial: `Testimonial`,
                 resume: `Resume`,
             },
             hero: {
@@ -50,6 +51,21 @@ i18n
             contact: {
                 header: `Get In Touch`,
                 email: `Send Email`
+            },
+            review: {
+                header: `Ever worked with me? Share your experience!`,
+                buttonText: `Leave a Testimonial!`,
+                formName: `Your Full Name`,
+                formRelationship: `Your Relationship To Me (Coworker, Peer, ...)`,
+                formExperience: `Your Experience`,
+                formSubmit: `Submit Your Testimonial!`,
+                successTitle: `Thank you for that!`,
+                successText: `Your testimonial has been submitted successfully.`,
+                successConfirm: `OK`,
+                failTitle: `Oops...`,
+                failText: `Something went wrong! Please try again.`,
+                failConfirm: `OK`,
+                requiredField: `Please fill out this field.`
             }
         }
       },
@@ -59,6 +75,7 @@ i18n
                 navMenuProjects: `Projets`,
                 navMenuAbout: `Moi`,
                 navMenuContact: `Contact`,
+                navMenuTestimonial: `Témoignage`,
                 resume: `Résumé`,
             },
             hero: {
@@ -91,7 +108,22 @@ i18n
             contact: {
                 header: `Contactez-Moi`,
                 email: `Envoyer Un Courriel`
-            }
+            },
+            review: {
+              header: `Déjà travaillé avec moi? Partagez votre expérience!`,
+              buttonText: `Laissez un Témoignage!`,
+              formName: `Votre Nom Complet`,
+              formRelationship: `Votre Relation Avec Moi (Collègue, Pair, ...)`,
+              formExperience: `Votre Expérience`,
+              formSubmit: `Soumettez Votre Témoignage!`,
+              successTitle: `Je vous en remercie!`,
+              successText: `Votre témoignage a été soumis avec succès.`,
+              successConfirm: `OK`,
+              failTitle: `Oups...`,
+              failText: `Quelque chose n'a pas fonctionné ! Veuillez réessayer.`,
+              failConfirm: `OK`,
+              requiredField: `SVP remplir ce champ.`
+          }
         }
       }
     }

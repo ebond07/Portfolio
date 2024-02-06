@@ -5,10 +5,10 @@ import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
 
 import ScrollAnimation from "react-animate-on-scroll";
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 function Contact() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {

@@ -38,6 +38,9 @@ const Header = ({ toggle }) => {
           <NavLink className="menu-item" to="contact">
             {t('header.navMenuContact')}
           </NavLink>
+          <NavLink className="menu-item" to="review">
+            {t('header.navMenuTestimonial')}
+          </NavLink>
         </NavMenu>
         <NavBtn>
           <a
