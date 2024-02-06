@@ -1,0 +1,5 @@
+INSERT INTO reviews (review_id, reviewer_name, review_content, reviewer_relationship) VALUES ('ba6c3e76-366e-44bb-8279-b41dc32dc456', 'David Rallo', 'Amazing, would love to work with again.', 'Coworker');
+INSERT INTO reviews (review_id, reviewer_name, review_content, reviewer_relationship) VALUES ('45772446-62f4-4ccb-b3f4-9393c186fa43', 'Adam Bonarrigo', 'Works well', 'Peer');
+INSERT INTO reviews (review_id, reviewer_name, review_content, reviewer_relationship) VALUES ('c3540a89-cb47-4c96-888e-ff96708db4d8', 'Amin Ranj Bar', 'Great student', 'Teacher');
+INSERT INTO reviews (review_id, reviewer_name, review_content, reviewer_relationship) VALUES ('f3e3e3e3-3e3e-3e3e-3e3e-3e3e3e3e3e3e', 'Youssef Chahboune', 'Way better than I am', 'Peer');
+INSERT INTO reviews (review_id, reviewer_name, review_content, reviewer_relationship) VALUES ('cc9c2c7f-afc9-46fb-8119-17158e54d02f', 'Nicholas Mazza', 'Would ask this guy for help', 'Peer');
