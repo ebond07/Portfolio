@@ -14,8 +14,8 @@ export const Testimonial = styled.div`
     row-gap: 1rem;
 
     .PrimaryBtn {
-        padding: 3rem 6rem;
-        font-size: 2rem;
+        padding: 2rem 4rem;
+        font-size: 1.4rem;
     }
 
     span {
