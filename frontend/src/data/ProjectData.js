@@ -13,6 +13,7 @@ export const ProjectList = [
     titleKey: "projects.hedgeTrimmingTitle",
     descriptionKey: "projects.hedgeTrimmingDesc",
       tech_stack: ["React JS", "Spring", "Java"],
+      github_url: "",
       demo_url: "https://www.coupetonarbre.live/",
   },
   {
