@@ -14,7 +14,7 @@ export const ProjectList = [
     descriptionKey: "projects.hedgeTrimmingDesc",
       tech_stack: ["React JS", "Spring", "Java"],
       github_url: "https://github.com/ebond07/CoupeTonArbre",
-      demo_url: "",
+      demo_url: "https://www.coupetonarbre.live/",
   },
   {
     img: "/ecoSmart.png",
