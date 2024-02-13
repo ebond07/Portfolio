@@ -47,7 +47,7 @@ function ProjectCard() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Demo ➜
+                    {t('projects.demo')}
                   </a>
                 )}
               </BtnGroup>

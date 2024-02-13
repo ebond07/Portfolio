@@ -39,7 +39,8 @@ i18n
                 hedgeTrimmingTitle: `Hedge Trimming Web App`,
                 hedgeTrimmingDesc: `A full stack web application created for a local hedge trimming company.`,
                 ecoSmartTitle: `Eco Smart Home Hub`,
-                ecoSmartDesc: `A smart home hub which allows the user to control local lights and fans.`
+                ecoSmartDesc: `A smart home hub which allows the user to control local lights and fans.`,
+                demo: 'Demo ➜'
             },
             about: {
                 header: `About Me`,
@@ -97,7 +98,8 @@ i18n
                 hedgeTrimmingTitle: `Application Web de Taille de Haies`,
                 hedgeTrimmingDesc: `Une application web full-stack crée pour une entreprise locale de taille de haies.`,
                 ecoSmartTitle: `Eco Smart Home Hub`,
-                ecoSmartDesc: `Un hub domestique intelligent qui permet à l'utilisateur de contrôler les lumières et les ventilateurs locaux.`
+                ecoSmartDesc: `Un hub domestique intelligent qui permet à l'utilisateur de contrôler les lumières et les ventilateurs locaux.`,
+                demo: 'Démo ➜'
             },
             about: {
                 header: `Sur Moi`,
