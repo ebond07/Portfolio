@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
 import styled from 'styled-components';
+import { useTranslation } from 'react-i18next';
 
 const TestimonialContainer = styled.div`
   width: 100%; /* Adjust the width as needed */
@@ -60,9 +61,10 @@ const CustomCarousel = styled(Carousel)`
 
 
 function TestimonialCarousel({ testimonials }) {
+  const { t } = useTranslation();
   return (
     <TestimonialContainer>
-      <h2 className='SectionTitleTest'>Testimonials</h2>
+      <h2 className='SectionTitleTest'>{t('about.testHeader')}</h2>
       
       <CustomCarousel>
         {testimonials.map(testimonial => (

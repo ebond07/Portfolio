@@ -50,8 +50,8 @@ export const stackList = [
     name: "Git",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
+    img: "/unity-original.svg",
+    name: "Unity",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",

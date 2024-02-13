@@ -46,7 +46,8 @@ i18n
                 sectionOne: `Hello, I'm <strong>Evan Bond</strong> from Montreal, Canada. I've built valuable experience across different jobs, enhancing my computer skills and fostering qualities like adaptability, strong work ethic, and daily self-improvement.`,
                 sectionTwo: `I embarked on my computer journey in high school, dedicating 2 daily hours to computer science. This persisted in college as I pursued a computer science DEC. It demanded hard work, dedication, and countless hours, resulting in consistent Dean's List recognition.`,
                 sectionThree: `Working within teams throughout my time in college was an incredibly valuable and eye-opening experience that has fueled my eagerness to continue exploring exciting projects in the future, with a particular interest in web development and full-stack applications.`,
-                sectionFour: `I have become confident using the following technologies:`
+                sectionFour: `I have become confident using the following technologies:`,
+                testHeader: 'Testimonials'
             },
             contact: {
                 header: `Get In Touch`,
@@ -75,7 +76,7 @@ i18n
                 navMenuProjects: `Projets`,
                 navMenuAbout: `Moi`,
                 navMenuContact: `Contact`,
-                navMenuTestimonial: `Témoignage`,
+                navMenuTestimonial: `Approbations`,
                 resume: `Résumé`,
             },
             hero: {
@@ -103,7 +104,8 @@ i18n
                 sectionOne: `Bonjour, je suis <strong>Evan Bond</strong> de Montréal, Canada. J'ai acquis une expérience précieuse dans le cadre de différents emplois, ce qui m'a permis d'améliorer mes compétences en informatique et de développer des qualités telles que l'adaptabilité, une solide éthique de travail et l'amélioration quotidienne de soi.`,
                 sectionTwo: `J'ai commencé mon parcours informatique à l'école secondaire, en consacrant deux heures par jour à l'informatique. Cela s'est poursuivi au cégep, où je poursuis un DEC en informatique. Cela m'a demandé beaucoup de travail, de dévouement et d'innombrables heures, ce qui m'a permis de figurer régulièrement sur la liste du doyen.`,
                 sectionThree: `Travailler en équipe tout au long de mes études a été une expérience incroyablement précieuse et révélatrice qui m'a donné envie de continuer à explorer des projets passionnants à l'avenir, avec un intérêt particulier pour le développement web et les applications full-stack.`,
-                sectionFour: `J'ai acquis une confiance dans l'utilisation des technologies suivantes :`
+                sectionFour: `J'ai acquis une confiance dans l'utilisation des technologies suivantes :`,
+                testHeader: 'Approbations'
             },
             contact: {
                 header: `Contactez-Moi`,
@@ -111,7 +113,7 @@ i18n
             },
             review: {
               header: `Déjà travaillé avec moi? Partagez votre expérience!`,
-              buttonText: `Laissez un Témoignage!`,
+              buttonText: `Laissez vos Impressions!`,
               formName: `Votre Nom Complet`,
               formRelationship: `Votre Relation Avec Moi (Collègue, Pair, ...)`,
               formExperience: `Votre Expérience`,
