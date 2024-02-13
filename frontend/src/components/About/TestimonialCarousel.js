@@ -18,11 +18,20 @@ const TestimonialBox = styled.div`
   height: 400px;
   width: 600px;
   overflow: hidden;
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    height: auto;
+    overflow-y: auto;
+    max-height: 500px; /* Adjust the max-height as needed */
+    padding: 10px; /* Remove padding */
+    width: auto; /* Set width to auto */
+  }
 `;
 
 const TestimonialContent = styled.p`
   flex: 1;
-  overflow: hidden;
+  overflow-y: auto;
 `;
 
 const AuthorName = styled.p`
@@ -41,12 +50,20 @@ const CustomCarousel = styled(Carousel)`
     background-color: #007bff;
     box-shadow: 0px 0px 1px 3px rgb(0, 97, 204)
   }
+
+  @media screen and (max-width: 1000px) {
+    .rec-arrow {
+      font-size: 16px;
+    }
+  }
 `;
+
 
 function TestimonialCarousel({ testimonials }) {
   return (
     <TestimonialContainer>
       <h2 className='SectionTitleTest'>Testimonials</h2>
+      
       <CustomCarousel>
         {testimonials.map(testimonial => (
           <TestimonialBox key={testimonial.id}>
