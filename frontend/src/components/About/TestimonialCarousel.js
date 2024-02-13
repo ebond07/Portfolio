@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Carousel from 'react-elastic-carousel';
 import styled from 'styled-components';
+import { useTranslation } from 'react-i18next';
 
 const TestimonialContainer = styled.div`
   width: 100%; /* Adjust the width as needed */
@@ -67,45 +68,63 @@ const CustomCarousel = styled(Carousel)`
   }
 `;
 
+// function TestimonialCarousel({ testimonials }) {
+//   const [expandedId, setExpandedId] = useState(null);
+//   const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+//   useEffect(() => {
+//     const handleResize = () => {
+//       setIsSmallScreen(window.innerWidth <= 1000);
+//     };
+
+//     handleResize(); // Initial check
+
+//     window.addEventListener('resize', handleResize);
+
+//     return () => {
+//       window.removeEventListener('resize', handleResize);
+//     };
+//   }, []);
+
+//   const handleReadMore = id => {
+//     setExpandedId(prevId => (prevId === id ? null : id));
+//   };
+
+//   return (
+//     <TestimonialContainer>
+//       <h2 className='SectionTitleTest'>Testimonials</h2>
+
+//       <CustomCarousel>
+//         {testimonials.map(testimonial => (
+//           <TestimonialBox key={testimonial.id}>
+//             <TestimonialContent>
+//               {testimonial.content.length > 100 && !isSmallScreen && !expandedId
+//                 ? `${testimonial.content.substring(0, 100)}...`
+//                 : testimonial.content}
+//             </TestimonialContent>
+//             {testimonial.content.length > 100 && isSmallScreen && (
+//               <ReadMoreButton onClick={() => handleReadMore(testimonial.id)}>
+//                 {expandedId === testimonial.id ? 'Read less' : 'Read more'}
+//               </ReadMoreButton>
+//             )}
+//             <AuthorName>- {testimonial.author}</AuthorName>
+//           </TestimonialBox>
+//         ))}
+//       </CustomCarousel>
+//     </TestimonialContainer>
+//   );
+// }
+
 function TestimonialCarousel({ testimonials }) {
-  const [expandedId, setExpandedId] = useState(null);
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 1000);
-    };
-
-    handleResize(); // Initial check
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-  const handleReadMore = id => {
-    setExpandedId(prevId => (prevId === id ? null : id));
-  };
-
+  const { t } = useTranslation();
   return (
     <TestimonialContainer>
-      <h2 className='SectionTitleTest'>Testimonials</h2>
-
+      <h2 className='SectionTitleTest'>{t('about.testHeader')}</h2>
+      
       <CustomCarousel>
         {testimonials.map(testimonial => (
           <TestimonialBox key={testimonial.id}>
-            <TestimonialContent>
-              {testimonial.content.length > 100 && !isSmallScreen && !expandedId
-                ? `${testimonial.content.substring(0, 100)}...`
-                : testimonial.content}
-            </TestimonialContent>
-            {testimonial.content.length > 100 && isSmallScreen && (
-              <ReadMoreButton onClick={() => handleReadMore(testimonial.id)}>
-                {expandedId === testimonial.id ? 'Read less' : 'Read more'}
-              </ReadMoreButton>
-            )}
+            <TestimonialContent>{testimonial.content}</TestimonialContent>
             <AuthorName>- {testimonial.author}</AuthorName>
           </TestimonialBox>
         ))}
